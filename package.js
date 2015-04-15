@@ -1,13 +1,13 @@
 Package.describe({
-  name: 'psi-modernizr',
+  name: 'meteor-modernizr',
   version: '0.0.1',
   summary: '',
-  git: '',
+  git: 'https://github.com/Atsman/meteor-modernizr.git',
   documentation: 'README.md'
 });
 
 Package.registerBuildPlugin({
-  name: 'modernizeBuild',
+  name: 'meteor-modernizr',
   use: [],
   sources: [
     'build.js'
