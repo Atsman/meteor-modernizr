@@ -20,7 +20,7 @@ Example:
   }
 ```
 
-For more information about modernizr configuration [visit!](www.github.com) 
+For more information about modernizr configuration [visit!](https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json) 
 
 Build plugin, which search for .modernizr.json config file
 and build custom version of modernize.

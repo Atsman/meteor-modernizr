@@ -1,13 +1,13 @@
 Package.describe({
-  name: 'meteor-modernizr',
+  name: 'atsman:modernizr',
   version: '0.0.1',
-  summary: '',
+  summary: 'Use modernizr in your meteor project',
   git: 'https://github.com/Atsman/meteor-modernizr.git',
   documentation: 'README.md'
 });
 
 Package.registerBuildPlugin({
-  name: 'meteor-modernizr',
+  name: 'atsman:modernizr',
   use: [],
   sources: [
     'build.js'
