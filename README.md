@@ -1,9 +1,9 @@
 #Meteor-modernizr#
 
 Use modernizr in your Meteor app.
-This plugin, build modernizr using your config on build stage.
+Plugin gives you ability to generate custom Modernizr builds.
 
-To use just add, a config.modernizr.json to your project.
+To use it just add, a config.modernizr.json to your project.
 Example:
 
 ```
@@ -20,10 +20,7 @@ Example:
   }
 ```
 
-For more information about modernizr configuration [visit!](https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json) 
-
-Build plugin, which search for .modernizr.json config file
-and build custom version of modernize.
+See [lib/config-all.json](www.github.com) for all available options.
 
 The main difference from similiar plugins 
-is that it not just wrap modernizr, it build it dynamicly.
+is that it not just wrap modernizr js file, it generate it using your config file.
