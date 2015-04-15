@@ -1,6 +1,6 @@
 Package.describe({
   name: 'atsman:modernizr',
-  version: '0.0.3',
+  version: '0.0.4',
   summary: 'Use modernizr in your meteor project',
   git: 'https://github.com/Atsman/meteor-modernizr.git',
   documentation: 'README.md'
