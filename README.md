@@ -1,4 +1,4 @@
-#Meteor-modernizr#
+# Meteor-modernizr
 
 Use modernizr in your Meteor app.
 Plugin gives you ability to generate custom Modernizr builds.
