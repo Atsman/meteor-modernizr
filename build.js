@@ -20,11 +20,10 @@ function buildModernizr(config, callback) {
   if(!buildModernizr.cache) {
     modernizr.build(config, function (result) {
       buildModernizr.cache = result;
-      console.log('=> Modernizr - building new file');
+      console.log('=> Modernizr - generating file.');
       callback(null, buildModernizr.cache);
     });
   } else {
-    console.log('=> Modernizr - getting from cache');
     callback(null, buildModernizr.cache);
   }
 }
@@ -57,4 +56,3 @@ function sourceHandler(compileStep) {
 }
 
 Plugin.registerSourceHandler('modernizr.json', sourceHandler);
-
