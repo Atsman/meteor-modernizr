@@ -20,7 +20,7 @@ Example:
   }
 ```
 
-See [lib/config-all.json](www.github.com) for all available options.
+See [lib/config-all.json](https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json) for all available options.
 
 The main difference from similiar plugins 
 is that it not just wrap modernizr js file, it generate it using your config file.
